@@ -31,6 +31,7 @@ import {Component} from '@angular/core';
 })
 export class GoogleMapDemo {
 
+  display;
   center: google.maps.LatLngLiteral = {lat: 24, lng: 12};
   zoom = 4;
 
